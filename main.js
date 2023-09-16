@@ -6,7 +6,7 @@ var textSearch = ""
 
 var objetodatos;
 async function getData() {
-    await fetch("https://amazing-events.herokuapp.com/api/events")
+    await fetch("https://mindhub-xj03.onrender.com/api/amazing")
     .then(response => response.json())
     .then(data => objetodatos = data);
 

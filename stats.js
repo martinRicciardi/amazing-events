@@ -1,4 +1,4 @@
-const API_URL = "https://amazing-events.herokuapp.com/api/events"
+const API_URL = "https://mindhub-xj03.onrender.com/api/amazing"
 let dataArray;
 async function getDataFromApi() {
 await fetch(`${API_URL}`)
